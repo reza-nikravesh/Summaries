@@ -1,11 +1,18 @@
-## Tuple
+##Types
 
-## Literal Type
+* Tuple
 
-## Type Alias
+* Literal Type
 
-## Unknown Type
+* Type Alias
 
-## Never Type
+*  Unknown Type
 
+*  Never Type
+
+##Compiler
+
+* watch
+* include
+* exclude
 
