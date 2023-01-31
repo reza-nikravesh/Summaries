@@ -48,3 +48,13 @@ if you wanna use it inside for example constructor function you should use the c
 	Person.age=age; ✅
 	 }
 	 }
+	 
+	 
+### Interface tip:
+If you want to define a type for function you have to do like this:
+	`type AddFn =(a:number)=>number`
+But if you want to handle this using interface you can do this :
+`interface AddFn{
+	(a:number):number
+}`	
+this is an especial syntax for interface and not behave like object-form
