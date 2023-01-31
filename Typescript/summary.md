@@ -58,3 +58,10 @@ But if you want to handle this using interface you can do this :
 	(a:number):number
 }`	
 this is an especial syntax for interface and not behave like object-form
+
+### Abstract class:
+Sometimes you need to force a class to implement a specific function . 
+so you can simply use interface . but if you want to inherite from another class and force to implement a function , you have to use abctract class and defind an abstract function . 
+
+if you define an abstract function in parent class you have to implement this function inside the inherited class . 
+the difference between these interface and abstract class is you cannot implement any thing in interface but in abstract class you can implement function or property which is available in inherited class and define some abstract function that force the inherited class to implement them.
